@@ -7,9 +7,7 @@ A lightweight HR management portal to manage:
 No authentication (as requested).
 
 ## Live Application URL
-- **TBD** (not deployed yet)
-
-> Once you deploy, paste your live URL here (for example, a Render/Fly deployment URL).
+https://hr-attendance-portal-qc3rilau9-vishal327s-projects.vercel.app/
 
 ## GitHub Repository Link
 - [vishal327/Hr-Attendance-Portal](https://github.com/vishal327/Hr-Attendance-Portal)
