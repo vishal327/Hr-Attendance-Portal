@@ -1,0 +1,20 @@
+{
+    "name":  "hr-portal",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1",
+                    "build":  "npm run build --prefix backend \u0026\u0026 npm run build --prefix frontend",
+                    "start":  "npm run start --prefix backend",
+                    "dev":  "concurrently -n api,web -c green,cyan \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "devDependencies":  {
+                            "concurrently":  "^9.2.1"
+                        }
+}
